@@ -35,7 +35,7 @@ btnPlayer2.addEventListener('click',function(){
     curscorePly2+=Math.trunc(Math.random()*10)+1;
     ScorePly2.textContent=curscorePly2;
     if(curscorePly2>=target){
-        alert(`Kisti Won with a score of ${curscorePly2}`);  
+        alert(`Player2 Won with a score of ${curscorePly2}`);  
     }
 })
 
